@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Arial', 'Helvetica Heue', sans-serif;
   color: #777;
@@ -33,6 +37,7 @@ section {
   width: 60%;
   height: 250px;
   margin: 10px;
+  padding: 25px;
 }
 
 aside {
@@ -40,30 +45,36 @@ aside {
   width: 35%;
   height: 250px;
   margin: 10px;
+  padding: 25px;
 }
 
 article {
   background: #777;
-  Color: white;
   width: 95%;
-  height: 150px;
-  margin: 0 auto;
+  height: 170px;
+  margin: auto;
+  margin-top: 20px;
+  color: white;
+  padding: 10px;
 }
 
 h2 {
   background: #ebebeb;
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 15px;
+  padding: 10px;
 }
 
 p {
   background: #ebebeb;
   width: 90%;
-  margin: 0 auto;
+  margin: auto;
+  margin-top: 10px;
+  padding: 15px;
 }
 
 footer {
   padding: 20px;
   margin: 10px;
-  clear: both;
 }
